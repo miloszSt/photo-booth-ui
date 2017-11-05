@@ -1,0 +1,34 @@
+{
+  "name": "photo-booth-ui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production && rollup -c",
+    "dev": "cross-env NODE_ENV=development && rollup -c -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [
+    "photo",
+    "booth"
+  ],
+  "description": "",
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "babel-plugin-external-helpers": "^6.18.0",
+    "babel-plugin-transform-react-jsx": "^6.8.0",
+    "babel-preset-env": "^1.6.1",
+    "cross-env": "5.0.5",
+    "rollup": "^0.41.4",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-browsersync": "^0.2.6",
+    "rollup-plugin-commonjs": "^8.2.6",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "rollup-plugin-replace": "^1.1.1",
+    "rollup-plugin-uglify": "^1.0.1",
+    "rollup-watch": "^3.2.2"
+  }
+}
