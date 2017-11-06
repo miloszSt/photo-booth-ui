@@ -20,7 +20,7 @@ export default {
         commonjs(),
         env === 'production' && uglify(),
         browsersync({
-            server: 'dist',
+            server: ['dist', 'src'],
             port: 3000
         })
     ]

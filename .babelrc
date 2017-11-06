@@ -4,5 +4,9 @@
       "modules": false
     }]
   ],
-  "plugins": ["external-helpers", "transform-react-jsx"]
+  "plugins": [
+    "external-helpers",
+    "transform-react-jsx",
+    "transform-class-properties"
+  ]
 }
